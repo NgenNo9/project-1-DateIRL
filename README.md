@@ -1,108 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# DATEInRealLife
 
-Welcome USER_NAME,
+This website was created to give singletons an outlet to connect with people in the real world. Without relying on dating apps.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Story
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Joe is an ordinary guy. He has been split with his ex for 2 years now. And in the last year alone, he has been on 43 first dates. He has had 4 second dates and only 1 third date. But he has never made a lasting connection. Joe puts this down to the fact that he is only able to connect with people on a cosmetic basis. He sees them on the apps, swipes because he's attracted to them. And when they swipe back, a conversaation ensues via text message.
 
-## Gitpod Reminders
+Joe likes this approach, overall, but he finds that when he meets the people in person, they tend to not look like their pictures, or they're not who they made themselves out to be during the text exchange. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This why we created DateIRL. The text message abrrier is broken down and we bring people together in a communal environment. People can be free to be themselves so that if their is a spark among singles, they can connect more naturally. Rather than wade through the potentials on an app.
 
-`python3 -m http.server`
+## What We Built
 
-A blue button should appear to click: _Make Public_,
+The website is primarily an information portal for people who want to take part in a dating activity where they can connect with like-minded individuals with a view to finding a potential future partner.
 
-Another blue button should appear to click: _Open Browser_.
+The website consists of 4 pages which tell the user:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. What we do and how it works
+2. About us
+3. A list of upcoming events
+4. And a signup page to register interest
 
-A blue button should appear to click: _Make Public_,
+In the future, it is envisioned that the signup page will lead to a checkout, where users can actually reserve a spot, but for now, the information portal will suffice for the website's needs. Below are the initial wireframe models of the homepage on phone, tablet and desktop devices.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Mobile
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Date IRL - Mobile - Home](https://user-images.githubusercontent.com/99017752/154042180-7859a7b2-a686-4c2c-b366-4b4364e4b39b.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+#### Tablet
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Date IRL - iPad - Home](https://user-images.githubusercontent.com/99017752/154042678-9765835f-6c45-4834-9180-7319a5036a81.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Desktop
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Date IRL - Desktop - Home](https://user-images.githubusercontent.com/99017752/154042744-dadc679f-563a-49a6-bf29-91f20b644571.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+It should be noted that the above is a base. The colour scheme and font are not cemented. These will be clarified later in the project.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
