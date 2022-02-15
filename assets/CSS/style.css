@@ -15,7 +15,7 @@ body {
 /* Header */
 
 #logo {
-    width:70%;
+    width:75%;
     margin-top: 16px;
 }
 
@@ -49,11 +49,7 @@ body {
 
 /* Hero Section */
 
-#hero-image {
-    height: 258px;
-}
-
-#hero-image img {
+#hero-image img, #about-content img {
     width: 100%;
 }
 
@@ -61,7 +57,7 @@ body {
     text-align: center;
 }
 
-#hero-blurb p {
+#hero-blurb p, #about-content p {
     font-size: 80%;
     letter-spacing: 1px;
     margin: 12px auto;
@@ -118,4 +114,25 @@ footer ul {
 #social-icons-wrapper a {
     text-decoration: none;
     color: inherit;
+}
+
+/* About Us Page */
+/* Hero Section */
+
+#quote p {
+    font-size: 60%;
+    text-align: right;
+}
+
+#about-us {
+    margin-top: 24px;
+}
+
+#about-heading {
+    text-align: center;
+}
+
+#signup-section {
+    text-align: center;
+    margin-top: 24px;
 }
