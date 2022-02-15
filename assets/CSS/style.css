@@ -15,7 +15,7 @@ body {
 /* Header */
 
 #logo {
-    width: 65%;
+    width:70%;
     margin-top: 16px;
 }
 
@@ -36,6 +36,10 @@ body {
     display: flex;
     list-style: none;
     justify-content: space-between;
+}
+
+#nav a:visited {
+    text-decoration: none;
 }
 
 .active {
