@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 20px;
+    background-color: #FFB1B1;
+}
+
+/* Header */
+
+#logo {
+    width: 65%;
+    margin-top: 16px;
+}
+
+#tagline {
+    text-align: right;
+}
+
+.subheading {
+    font-size: 50%;
+    font-weight: 400;
+}
+
+#nav {
+    margin: 16px auto;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.active {
+    border-bottom: 2px solid #000;
+}
+
+/* Hero Section */
+
+#hero-image {
+    height: 258px;
+}
+
+#hero-image img {
+    width: 100%;
+}
+
+#what-we-do-heading {
+    text-align: center;
+}
+
+#hero-blurb p {
+    font-size: 80%;
+    letter-spacing: 1px;
+    margin: 8px auto;
+}
+
+/* How it Works */
+
+#how-it-works {
+    margin: 16px auto;
+}
+
+#how-it-works  h2 {
+    text-align: center;
+}
+
+#how-it-works  p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Sign Up Button */
+#sign-up-btn {
+    margin: 32px auto;
+}
+
+#sign-up-btn h3 {
+    width: 50%;
+    font-size: 125%;
+    padding: 8px 25px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Footer */
+
+footer h2 {
+    text-align: center;
+}
+
+footer ul {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    margin: 24px auto;
+    justify-content: space-between;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.social-icon:visited {
+    text-decoration: none;
+    color: #000;
+}
