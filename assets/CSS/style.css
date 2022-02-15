@@ -136,3 +136,18 @@ footer ul {
     text-align: center;
     margin-top: 24px;
 }
+
+/* Events Page */
+/* Callout */
+
+#callout p {
+    font-size: 80%;
+    letter-spacing: 1px;
+    margin: 12px auto;
+}
+
+#callout h2 {
+    width: 80%;
+    text-align: center;
+    margin: 24px auto 0;
+}
