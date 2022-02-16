@@ -140,7 +140,7 @@ footer ul {
 /* Events Page */
 /* Callout */
 
-#callout p, #venue-date, #find-out-more p {
+#callout p, #venue-date, #find-out-more p, #hero-section p {
     font-size: 80%;
     letter-spacing: 1px;
     margin: 12px auto;
@@ -181,3 +181,114 @@ footer ul {
      text-decoration: none;
      color: inherit;
  }
+
+ /* Sign Up Page */
+
+ /* hero section */
+
+ #hero-section h2 {
+     text-align: center;
+ }
+
+ /* Form */
+
+ form {
+    font-size: 80%;
+    letter-spacing: 1px;
+ }
+
+ input[type="text"], input[type="email"], input[type="tel"] {
+     width: 100%;
+     line-height: 25px;
+     background-color: transparent;
+     border: 1px solid #000;
+     border-radius: 5px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+ }
+
+ #phone {
+     width: 50%;
+ }
+
+ #demographics, #age-prefs {
+     display: flex;
+     margin-top: 24px;
+ }
+
+ #i-am {
+     width: 50%;
+ }
+
+ #seeking {
+     width: 50%
+ }
+
+
+ #my-age {
+     width:25%;
+     margin-right: 24px;
+ }
+
+ #my-age-decl {
+     width: 75%;
+ }
+
+ #max-age, #min-age {
+     width: 25%
+ }
+
+ #max-min-age {
+     width: 75%;
+ }
+
+ input[type="num"] {
+     width: 50%;
+     line-height: 25px;
+     background-color: transparent;
+     border: 1px solid #000;
+     border-radius: 5px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+}
+
+#interests {
+    margin-top: 24px;
+}
+
+ #rel-interest {
+    display: flex;
+}
+
+#interested-in-left {
+    width: 50%;
+}
+
+#interested-in-right {
+    width: 50%
+}
+
+input[type="submit"] {
+    display: block;
+    font-weight: 700;
+    padding: 8px 24px;
+    border-radius: 5px;
+    /* text-align: center; */
+    margin: 16px auto;
+}
+
+#hobbies {
+    margin-top: 24px;
+}
+
+#hobbies p {
+    font-size: 60%;
+}
+
+textarea {
+    display: block;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 8px auto;
+}

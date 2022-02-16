@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATEIRL | Date In Real Life - Sign Up</title>
+
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div id="logo">
+            <h1 id="wordmark">DATE I<span class="subheading">n</span> R<span class="subheading">eal</span> L<span class="subheading">ife</span></h1>
+            <div id="tagline">Escape The Apps</div>
+        </div>
+        <nav id="nav">
+            <ul id="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item active"><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <div id="hero-section">
+        <h2>SIGN UP!</h2>
+        <p>To learn more about the fantastic events we have organised, please fill in the form below.</p>
+    </div>
+
+    <!-- Form -->
+
+    <form action="https://formdump.codeinstitute.net">
+        <div id="pii">
+            <label for="name">Name:*</label><br>
+            <input type="text" id="name" class="form-name" required>
+            <label for="email">Email:*</label><br>
+            <input type="email" id="email" class="form-email" required>
+            <label for="phone">Phone:*</label><br>
+            <input type="tel" id="phone" class="form-phone-number" required>
+        </div>
+
+        <div id="demographics">
+            <div id="i-am">
+                <p>I am:*</p>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="trans" name="gender" value="Trans">
+                <label for="trans">Trans</label>
+                <br>
+                <input type="radio" id="non-binary" name="gender" value="Non-Binary">
+                <label for="non-binary">Non-Binary</label>
+                <br>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </div>
+            <div id="seeking">
+                <p>I am interested in:*</p>
+                <input type="radio" id="men" name="seeking" value="Men">
+                <label for="men">Male</label>
+                <br>
+                <input type="radio" id="women" name="seeking" value="Women">
+                <label for="women">Male</label>
+                <br>
+                <input type="radio" id="both" name="seeking" value="Both">
+                <label for="both">Both</label>
+                <br>
+                <input type="radio" id="other" name="seeking" value="Other">
+                <label for="other">Male</label>
+                <br>
+            </div>
+        </div>
+
+        <div id="age-prefs">
+            <div id="my-age">
+                <label for="my-age-decl">My Age:*</label>
+                <input type="num" id="my-age-decl">
+            </div>
+            <div id="max-min-age">
+                <div id="min-would-date">
+                <label for="min-age">Minimum age I would date:*</label>
+                <input type="num" id="min-age">
+                </div>
+                <div id="max-would-date">
+                <label for="max-age">Maximum age I would date:*</label>
+                <input type="num" id="max-age">
+                </div>
+            </div>
+        </div>
+
+        <div id="interests">
+            <p>What kind of relationship interests you?*:</p>
+            <sup>Tick all that apply</sup>
+            <div id="rel-interest">
+                <div id="interested-in-left">
+                    <input type="checkbox" id="friendship" name="friendship" value="Friendship">
+                    <label for="friendship">Friendship</label><br>
+                    <input type="checkbox" id="long-term" name="long-term" value="Long-Term">
+                    <label for="long-term">Long Term</label><br>
+                    <input type="checkbox" id="marriage" name="marriage" value="Marriage">
+                    <label for="marriage">Marriage</label><br>
+                </div>
+                <div id="interested-in-right">
+                    <input type="checkbox" id="casual" name="casual" value="Casual">
+                    <label for="casual">Casual</label><br>
+                    <input type="checkbox" id="polyamory" name="polyamory" value="Polyamory">
+                    <label for="polyamory">Polyamory</label><br>
+                    <input type="checkbox" id="open" name="open" value="Open">
+                    <label for="open">Open to All</label><br>
+                </div>
+            </div>
+        </div>
+        <div id="hobbies">
+            <label for="hobb-inter">Please list interests and hobbies in the space provided*:</label>
+            <p>Tell us all about your hobbies and interests so that we can connect you with the most suitable person for YOU. Be specific!</p>
+            <textarea id="hobb-inter" name="hobbies" rows="6" cols="40" required>
+            </textarea>
+        </div>    
+        <input type="submit" value="SIGN UP NOW!">
+    </form>
+
+    <footer>
+        <h2>Connect With Us</h2>
+        <ul id="social-icons-wrapper">
+            <li class="social-icon"><a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-icon"><a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com" target="_blank" aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/b214ff1f30.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
