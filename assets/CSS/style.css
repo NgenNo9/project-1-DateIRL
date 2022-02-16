@@ -81,7 +81,7 @@ body {
 /* Sign Up Button */
 
 #sign-up-btn {
-    margin: 32px auto;
+    margin: 24px auto;
 }
 
 #sign-up-btn h3 {
@@ -140,8 +140,13 @@ footer ul {
 /* Events Page */
 /* Callout */
 
-#callout p {
+#callout p, #venue-date, #find-out-more p {
     font-size: 80%;
+    letter-spacing: 1px;
+    margin: 12px auto;
+}
+
+#location {
     letter-spacing: 1px;
     margin: 12px auto;
 }
@@ -151,3 +156,28 @@ footer ul {
     text-align: center;
     margin: 24px auto 0;
 }
+
+/* Events */
+
+#events {
+    margin-bottom: 32px;
+}
+
+ #venue-date {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #event-btn h5 {
+     text-align: center;
+     width: 33%;
+     padding: 8px 16px;
+     background-color: #fff;
+     border-radius: 5px;
+     margin: 8px 0 8px auto;
+ }
+
+ #event-btn a {
+     text-decoration: none;
+     color: inherit;
+ }
