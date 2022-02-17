@@ -125,7 +125,7 @@ footer ul {
 /* Events Page */
 /* Callout */
 
-#callout p, #venue-date, #find-out-more p, {
+#callout p, #venue-date, #find-out-more p {
     font-size: 80%;
     letter-spacing: 1px;
     margin: 12px auto;
@@ -172,6 +172,7 @@ footer ul {
 
  form {
     letter-spacing: 1px;
+    font-size: 95%;
  }
 
  input[type="text"], input[type="email"], input[type="tel"] {
