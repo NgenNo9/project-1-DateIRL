@@ -10,6 +10,7 @@
 body {
     margin: 0 20px;
     background-color: #FFB1B1;
+    letter-spacing: 1px;
 }
 
 /* Header */
@@ -28,17 +29,17 @@ body {
     font-weight: 400;
 }
 
-#nav {
+#nav, #how-it-works {
     margin: 16px auto;
 }
 
-#nav ul {
+.nav-menu {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
 
-#nav-menu a {
+.nav-menu a {
     text-decoration: none;
     color: inherit;
 }
@@ -49,27 +50,22 @@ body {
 
 /* Hero Section */
 
+#hero-section, #about-us, #interests, #hobbies, #signup-section, #demographics, #age-prefs  {
+    margin-top: 24px;
+}
+
 #hero-image img, #about-content img {
     width: 100%;
 }
 
-#what-we-do-heading {
-    text-align: center;
-}
-
-#hero-blurb p, #about-content p {
-    font-size: 80%;
-    letter-spacing: 1px;
+#hero-content p, #about-content p {
     margin: 12px auto;
 }
 
+/* How It Works & Sign Up */
 /* How it Works */
 
-#how-it-works {
-    margin: 16px auto;
-}
-
-#how-it-works  h2 {
+h2 {
     text-align: center;
 }
 
@@ -91,15 +87,10 @@ body {
     background-color: #fff;
     margin: 0 auto;
     border-radius: 5px;
-    justify-content: space-around;
     text-align: center;
 }
 
 /* Footer */
-
-footer h2 {
-    text-align: center;
-}
 
 footer ul {
     width: 50%;
@@ -108,7 +99,6 @@ footer ul {
     margin: 24px auto;
     justify-content: space-between;
     font-size: 150%;
-    text-decoration: none;
 }
 
 #social-icons-wrapper a {
@@ -119,13 +109,9 @@ footer ul {
 /* About Us Page */
 /* Hero Section */
 
-#quote p {
+#quote p, #hobbies p {
     font-size: 60%;
     text-align: right;
-}
-
-#about-us {
-    margin-top: 24px;
 }
 
 #about-heading {
@@ -134,13 +120,12 @@ footer ul {
 
 #signup-section {
     text-align: center;
-    margin-top: 24px;
 }
 
 /* Events Page */
 /* Callout */
 
-#callout p, #venue-date, #find-out-more p, #hero-section p {
+#callout p, #venue-date, #find-out-more p, {
     font-size: 80%;
     letter-spacing: 1px;
     margin: 12px auto;
@@ -183,17 +168,9 @@ footer ul {
  }
 
  /* Sign Up Page */
-
- /* hero section */
-
- #hero-section h2 {
-     text-align: center;
- }
-
  /* Form */
 
  form {
-    font-size: 80%;
     letter-spacing: 1px;
  }
 
@@ -213,7 +190,6 @@ footer ul {
 
  #demographics, #age-prefs {
      display: flex;
-     margin-top: 24px;
  }
 
  #i-am {
@@ -223,7 +199,6 @@ footer ul {
  #seeking {
      width: 50%
  }
-
 
  #my-age {
      width:25%;
@@ -252,10 +227,6 @@ footer ul {
      margin-bottom: 10px;
 }
 
-#interests {
-    margin-top: 24px;
-}
-
  #rel-interest {
     display: flex;
 }
@@ -273,16 +244,7 @@ input[type="submit"] {
     font-weight: 700;
     padding: 8px 24px;
     border-radius: 5px;
-    /* text-align: center; */
     margin: 16px auto;
-}
-
-#hobbies {
-    margin-top: 24px;
-}
-
-#hobbies p {
-    font-size: 60%;
 }
 
 textarea {
