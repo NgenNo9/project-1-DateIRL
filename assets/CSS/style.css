@@ -126,7 +126,6 @@ footer ul {
 /* Callout */
 
 #callout p, #venue-date, #find-out-more p {
-    font-size: 80%;
     letter-spacing: 1px;
     margin: 12px auto;
 }

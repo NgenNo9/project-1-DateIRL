@@ -39,11 +39,11 @@
     <form action="https://formdump.codeinstitute.net" method="POST">
         <div id="pii">
             <label for="name">Name:*</label><br>
-            <input type="text" id="name" class="form-name" required>
+            <input type="text" id="name" class="form-name" name="name" required>
             <label for="email">Email:*</label><br>
-            <input type="email" id="email" class="form-email" required>
+            <input type="email" id="email" class="form-email" name="email" required>
             <label for="phone">Phone:*</label><br>
-            <input type="tel" id="phone" class="form-phone-number" required>
+            <input type="tel" id="phone" class="form-phone-number" name="phone-number" required>
         </div>
 
         <div id="demographics">
@@ -84,16 +84,16 @@
         <div id="age-prefs">
             <div id="my-age">
                 <label for="my-age-decl">My Age:*</label>
-                <input type="num" id="my-age-decl">
+                <input type="num" id="my-age-decl" name="my-age">
             </div>
             <div id="max-min-age">
                 <div id="min-would-date">
                 <label for="min-age">Minimum age I would date:*</label>
-                <input type="num" id="min-age">
+                <input type="num" id="min-age" name="min-age">
                 </div>
                 <div id="max-would-date">
                 <label for="max-age">Maximum age I would date:*</label>
-                <input type="num" id="max-age">
+                <input type="num" id="max-age" name="max-age">
                 </div>
             </div>
         </div>
