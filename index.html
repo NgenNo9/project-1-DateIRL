@@ -14,13 +14,13 @@
 
     <header>
         <div id="logo">
-            <img src="./assets/images/DateIRL-V2.png" alt="DATEIRL Logo">
+            <a href="index.html"><img src="assets/images/DateIRL-V2.png" alt="DATEIRL Logo"></a>
         </div>
         <nav id="nav">
             <ul class="nav-menu">
                 <li class="nav-item active"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="about.html">About</a></li>
-                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item"><a href="#trust">About</a></li>
+                <li class="nav-item"><a href="#events">Events</a></li>
                 <li class="nav-item"><a href="sign-up.html">Sign Up</a></li>
             </ul>
         </nav>
@@ -28,38 +28,124 @@
 
     <!-- Hero Section -->
 
-    <div id="hero-section">
-        <div id="hero-image">
-            <img src="./assets/images/group-dinner.jpeg" alt="Dinner Party close up of wine being poured">
-        </div>
-        <div id="hero-content">
-            <h2>What We Do</h2>
-            <p>Dating is hard. Endless swiping gives your thumbs some great exercise. And you swipe hoping that the person you swiped on swiped on you too. The inevitable heartbreak when they don’t. Or worse, they do, only for you to realise that they’re who you thought they might be.</p>
-            <p>We may have an answer for that</p>
-            <p>DATE In Real Life was created with this in mind. Forget about the thumb workouts. Stop hoping that the person you swiped on swipes on you. Get out in to the real world and build a great connection. </p>
-        </div>
-    </div>
-
-    <!-- How It Works & Sign Up -->
-
-    <div id="work-sign">
+    <section id="hero-outer">
+        <div id="hero-image"></div>
         <!-- How It Works -->
-        <div id="how-it-works">
-            <h2>How It Works</h2>
+        <div id="cover-text">
+            <h1>How It Works</h1>
             <div id="works-list">
-                <p><i class="fas fa-check"></i> We connect 6 singletons</p>
-                <p><i class="fas fa-music"></i> Come together for dinner and music</p>
-                <p><i class="fas fa-bolt"></i> Connect with like-minded people</p>
+                <h4><i class="fas fa-check"></i> We connect 6 singletons</h4>
+                <h4><i class="fas fa-music"></i> Come together for dinner and music</h4>
+                <h4><i class="fas fa-bolt"></i> Connect with like-minded people</h4>
+            </div>
+            <!-- Sign Up Button -->
+            <div id="sign-up-btn">
+                <a href="sign-up.html"><h3>SIGN UP NOW!</h3></a>
             </div>
         </div>
-        <!-- Sign Up Button -->
-        <div id="sign-up-btn">
-            <h3>SIGN UP NOW!</h3>
+    </section>
+
+    <!-- Why Us? -->
+
+    <section id="trust">
+        <h2 class="why">Why DATE IRL?</h2>
+        <div id="reasons">
+            <div id="right-reasons">
+                <div class="right-reasons-inner">
+                    <h2>people just like you <i class="fa-solid fa-thumbs-up"></i></h2>
+                    <p>Connect with singles that are on the same wavelength.</p>
+                </div>
+                <div class="right-reasons-inner">
+                    <h2>Safety In Numbers <i class="fas fa-bookmark"></i></h2>
+                    <p>Singles often prefer to meet in areas where there's a crowd to protect their safety.</p>
+                </div>
+            </div>
+
+            <div id="left-reasons">
+                <div class="left-reasons-inner">
+                    <h2><i class="fa-solid fa-martini-glass-citrus"></i> Have a great time</h2>
+                    <p>Our events are always filled with fun and laughter. Great night guaranteed.</p>
+                </div>
+                <div class="left-reasons-inner">
+                    <h2><i class="fa-solid fa-mobile-screen-button"></i> put away your phone</h2>
+                    <p>Escape the apps and connect with people in the real world on a more meaningful level</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Events -->
+
+    <section id="events">
+        <div id="event-wrapper">
+            <div id="location">
+                <h3>Ennis</h3>
+            </div>
+            <div id="venue-date">
+                <div id="venue">
+                    <p>Henry's Bistro & Wine Bar</p>
+                </div>
+                <div id="date">March 26th</div>
+            </div>
+            <div id="event-btn">
+                <h5><a href="sign-up.html">Sign Up!</a></h5>
+            </div>
+        </div>
+
+        <div id="event-wrapper">
+            <div id="location">
+                <h3>Limerick</h3>
+            </div>
+            <div id="venue-date">
+                <div id="venue">
+                    <p>Cornstore Limerick</p>
+                </div>
+                <div id="date">April 16th</div>
+            </div>
+            <div id="event-btn">
+                <h5><a href="sign-up.html">Sign Up!</a></h5>
+            </div>
+        </div>
+
+        <div id="event-wrapper">
+            <div id="location">
+                <h3>Newcastle West</h3>
+            </div>
+            <div id="venue-date">
+                <div id="venue">
+                    <p>Longcourt House Hotel</p>
+                </div>
+                <div id="date">May 7th</div>
+            </div>
+            <div id="event-btn">
+                <h5><a href="sign-up.html">Sign Up!</a></h5>
+            </div>
+        </div>
+
+        <div id="event-wrapper">
+            <div id="location">
+                <h3>Killaloe/Ballina</h3>
+            </div>
+            <div id="venue-date">
+                <div id="venue">
+                    <p>The Lakeside Hotel</p>
+                </div>
+                <div id="date">May 28th</div>
+            </div>
+            <div id="event-btn">
+                <h5><a href="sign-up.html">Sign Up!</a></h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="find-out-more">
+        <p>To find out more about these events and the many more that we have planned, click the button below to</p>
+        <div id="sign-up-btn">
+            <a href="sign-up.html"><h3>SIGN UP NOW!</h3></a>
+        </div>
+    </section>
 
     <footer>
-        <h2>Connect With Us</h2>
         <ul id="social-icons-wrapper">
             <li class="social-icon"><a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
             <li class="social-icon"><a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>

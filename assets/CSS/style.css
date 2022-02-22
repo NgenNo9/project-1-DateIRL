@@ -10,44 +10,59 @@
 body {
     background-color: #EFEFEF;
     letter-spacing: 1px;
-    color: #252525;
+    color: #363636;
     line-height: 25px;
 }
 
+
+
 /* Header */
 
-#logo, #hero-content {
-    margin-top: 16px;
+#logo {
+    width: 100%;
 }
 
 #logo img {
-    width:75%;
-}
-
-#nav, #how-it-works {
-    margin: 16px 20px;
+    width: 75%;
 }
 
 .nav-menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
+    margin-bottom: 25px;
 }
 
-.nav-menu a {
+#nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
     text-decoration: none;
     color: inherit;
 }
 
 .active {
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #363636;
 }
+
 
 /* Hero Section */
 
+#hero-outer {
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
-    height: 300px;
+    height: 400px;
     width: 100%;
+    background: url(../images/cool-background.png) no-repeat center center;
 
     /* Animating the hero image*/
     animation-name: hero-zoom;
@@ -58,51 +73,137 @@ body {
 /* Creating the zoom level */
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        transform: scale(0.9);
     }
     to{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
-#hero-section, #about-us, #interests, #hobbies, #signup-section, #demographics, #age-prefs  {
-    margin-top: 24px;
-    overflow: hidden;
-}
+/* Form Hero Section */
 
-#hero-image img, #about-content img {
+#hero-section {
     width: 100%;
+    background: url(/assets/images/glasses-clinking.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#hero-content p, #about-content p {
-    margin: 12px auto;
+#cover-text {
+    margin: 0 20px;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 15px;
+}
+    
+
+h1 {
+    font-size: 250%;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
 }
 
-/* How It Works & Sign Up */
-/* How it Works */
-
-h2 {
+h3 {
+    padding-top: 15px;
+    padding-bottom: 8px;
     text-align: center;
 }
 
-#how-it-works  p {
+h4 {
+    width: 75%;
+    padding: 18px 0;
     text-align: center;
-    margin-top: 16px;
+    margin: 0 auto;
 }
-
-/* Sign Up Button */
 
 #sign-up-btn {
-    margin: 24px auto;
+    text-align: center;
 }
 
 #sign-up-btn h3 {
-    width: 50%;
-    font-size: 125%;
-    padding: 8px 25px;
-    background-color: #fff;
+    display: inline;
+    background-color: #FFB36E;
+    text-align: center;
+    padding: 12px 25px;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+/* Trust Section */
+
+#trust {
+    margin: 24px auto;
+}
+
+.why {
+    font-size: 200%;
+    text-align: center;
+    margin: 24px auto;
+}
+
+#reasons {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reasons h2 {
+    text-transform: uppercase;
+    font-size: 125%;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #363636
+}
+
+#reasons p {
+    margin-bottom: 20px;
+}
+
+/* Events */
+
+#events {
+    background: url(../images/glasses-clinking.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#event-wrapper {
+    background-color: rgba(54, 54, 54, 0.6);
+    color: #EFEFEF;
+    border: 3px solid #EFEFEF;
+}
+
+#event-btn {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+#event-btn a {
+    width: 25%;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: #FFB36E;
+    color: #363636;
+}
+
+#venue, #date {
+    text-align: center;
+}
+
+/* Find Out More */
+
+#find-out-more {
+    width: 75%;
+    margin: 15px auto;
+}
+
+#find-out-more p {
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -111,83 +212,20 @@ h2 {
 footer ul {
     width: 50%;
     display: flex;
-    list-style: none;
-    margin: 24px auto;
     justify-content: space-between;
-    font-size: 150%;
+    list-style: none;
+    margin: 25px auto;
+    font-size: 200%;
 }
 
-#social-icons-wrapper a {
-    text-decoration: none;
-    color: inherit;
-}
+/* Form page */
 
-/* About Us Page */
-/* Hero Section */
-
-#quote p, #hobbies p {
-    font-size: 60%;
-    text-align: right;
-}
-
-#about-heading {
-    text-align: center;
-}
-
-#signup-section {
-    text-align: center;
-}
-
-/* Events Page */
-/* Callout */
-
-#callout p, #venue-date, #find-out-more p {
+#form-wrapper {
+    width: 90%;
+    margin: 0 auto;
     letter-spacing: 1px;
-    margin: 12px auto;
-}
-
-#location {
-    letter-spacing: 1px;
-    margin: 12px auto;
-}
-
-#callout h2 {
-    width: 80%;
-    text-align: center;
-    margin: 24px auto 0;
-}
-
-/* Events */
-
-#events {
-    margin-bottom: 32px;
-}
-
- #venue-date {
-     display: flex;
-     justify-content: space-between;
- }
-
- #event-btn h5 {
-     text-align: center;
-     width: 33%;
-     padding: 8px 16px;
-     background-color: #fff;
-     border-radius: 5px;
-     margin: 8px 0 8px auto;
- }
-
- #event-btn a {
-     text-decoration: none;
-     color: inherit;
- }
-
- /* Sign Up Page */
- /* Form */
-
- form {
-    letter-spacing: 1px;
-    font-size: 95%;
+    background-color: rgba(54, 54, 54, 0.6);
+    color: #EFEFEF;
  }
 
  input[type="text"], input[type="email"], input[type="tel"] {
@@ -204,7 +242,7 @@ footer ul {
      width: 50%;
  }
 
- #demographics, #age-prefs {
+ #demographics {
      display: flex;
  }
 
@@ -216,24 +254,7 @@ footer ul {
      width: 50%
  }
 
- #my-age {
-     width:25%;
-     margin-right: 24px;
- }
-
- #my-age-decl {
-     width: 75%;
- }
-
- #max-age, #min-age {
-     width: 25%
- }
-
- #max-min-age {
-     width: 75%;
- }
-
- input[type="num"] {
+ input[type="number"] {
      width: 50%;
      line-height: 25px;
      background-color: transparent;
@@ -241,18 +262,6 @@ footer ul {
      border-radius: 5px;
      margin-top: 5px;
      margin-bottom: 10px;
-}
-
- #rel-interest {
-    display: flex;
-}
-
-#interested-in-left {
-    width: 50%;
-}
-
-#interested-in-right {
-    width: 50%
 }
 
 input[type="submit"] {
@@ -263,10 +272,102 @@ input[type="submit"] {
     margin: 16px auto;
 }
 
-textarea {
-    display: block;
-    background-color: transparent;
-    border: 1px solid #000;
+input[type="submit"] {
+    font-size: 150%;
     border-radius: 5px;
-    margin: 8px auto;
+    background-color: #FFB36E;
+    color: #363636;
+}
+
+footer ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 25px auto;
+    font-size: 200%;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 580px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #nav {
+        width: 100%;
+    }
+
+    #reasons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #reasons > div {
+        margin: 0 20px
+    }
+}
+
+@media screen and (min-width: 1170px) {
+
+    body {
+        background-color: #EFEFEF;
+        letter-spacing: 1px;
+        color: #363636;
+        line-height: 400%;
+        font-size: 125%;
+    }
+
+    #hero-section {
+        width: 100%;
+    }
+
+    form, #hero-section h2, #hero-section p {
+        line-height: 150%;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #reasons p {
+        line-height: 200%;
+    }
+
+    #events {
+        display: flex;
+    }
+
+    #events h3 {
+        font-size: 150%;
+    }
+
+    #event-wrapper {
+        width: 25%;
+    }
+
+    #hero-image {
+        height: 800px;
+    }
+
+    @keyframes hero-zoom {
+        from{
+            transform: scale(1.5)
+        }
+        to{
+            transform: scale(2.0);
+        }
+    }
+
+    #cover-text {
+        font-size: 120%;
+        width: 50%;
+        left: 0;
+        bottom: 50px;
+        line-height: 200%;
+    }
 }
