@@ -84,7 +84,7 @@ a {
 
 #hero-section {
     width: 100%;
-    background: url(../images/glasses-clinking.jpeg);
+    background: url(../images/glasses-clinking.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ h4 {
 /* Events */
 
 #events {
-    background: url(../images/glasses-clinking.jpeg);
+    background: url(../images/glasses-clinking.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
