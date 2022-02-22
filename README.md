@@ -129,4 +129,4 @@ The site was deployed to a cloud-based platform. GitHub Pages provided the hosti
 
 ### **Maintenance**
 
-All files are stored locally within the repo so there is no need for maintenance as such. Justy to keep on top of the host to ensure it is fully operation and that teh website is being surfaced accordingly.
+All files are stored locally within the repo so there is no need for maintenance as such. Just to keep on top of the host to ensure it is fully operation and that teh website is being surfaced accordingly.
