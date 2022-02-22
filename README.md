@@ -43,7 +43,7 @@ In the future, it is envisioned that the signup page will lead to a checkout, wh
 ![Date IRL - Desktop - Home](https://user-images.githubusercontent.com/99017752/154042744-dadc679f-563a-49a6-bf29-91f20b644571.png)
 
 
-It should be noted that the above is a base. The colour scheme and font are not cemented. These will be clarified later in the project.
+>It should be noted that the above is a base. The colour scheme and font are not cemented. These will be clarified later in the project.
 
 ## **22/2/2022**
 
@@ -73,7 +73,7 @@ Once all html code was finalised and CSS code was added, testing took the form o
 
 Below is a screenshot from [AmIResponsive.com](http://ami.responsivedesign.is/) showing the various elements of the page at different screen widths.
 
-![DATE IRL Responsiveness Test](/assets/images/responsiveness-test.png)
+![DATE IRL Responsiveness Test](/assets/images/responsive-project.png)
 
 The next test was to check the Google Lighthouse report in Dev Tools
 
@@ -93,9 +93,9 @@ Lighthouse repoirt aslo confirmed a high degree of accessibility achieving an ov
 
 ### **Validation**
 
-On running the HTML files through the ]Official W3C HTML Validation Tool](https://validator.w3.org/), itv was noticed that the section IDs were used in multiple instances. It was thought by this Junior Dev that IDs had some utility use cases, however this seems to not be case. These IDs were changed to classes where necessary, with specific references to the **Events** section of the index.html. This was also found in 1 instance in the `sign-up.html` file. The ID was modified here instead of changing to a class. The issue was in relation to a form label and input. So an ID was necessary in this case.
+On running the HTML files through the [Official W3C HTML Validation Tool](https://validator.w3.org/), itv was noticed that the section IDs were used in multiple instances. It was thought by this Junior Dev that IDs had some utility use cases, however this seems to not be case. These IDs were changed to classes where necessary, with specific references to the **Events** section of the index.html. This was also found in 1 instance in the `sign-up.html` file. The ID was modified here instead of changing to a class. The issue was in relation to a form label and input. So an ID was necessary in this case.
 
-On re-running the HTML validator, no issues were found. The CSS val;idation was run after the HTML was updated and no issues were found in the [CSS Validation Tool](https://jigsaw.w3.org/css-validator/).
+On re-running the HTML validator, no issues were found. The CSS validation was run after the HTML was updated and no issues were found in the [CSS Validation Tool](https://jigsaw.w3.org/css-validator/).
 
 ### **Image Attribution**
 
@@ -110,3 +110,8 @@ Photo by Julia Kuzenkov from [Pexels](https://www.pexels.com/photo/people-having
 **DateIRL-V3**
 
 Logo image designed by [NgenNo9](https://github.com/NgenNo9)
+
+### **Deployment**
+
+The site was deployed to a cloud-based platform. GitHub Pages provided the hosting of the deployment and can be viewed at [my project repo](https://ngenno9.github.io/project-1-DateIRL/).
+
