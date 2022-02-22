@@ -28,12 +28,6 @@ body {
     margin-bottom: 25px;
 }
 
-#nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
 #nav ul {
     display: flex;
     list-style: none;
