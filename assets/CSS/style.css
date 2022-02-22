@@ -14,8 +14,6 @@ body {
     line-height: 25px;
 }
 
-
-
 /* Header */
 
 #logo {
@@ -118,11 +116,11 @@ h4 {
     margin: 0 auto;
 }
 
-#sign-up-btn {
+.sign-up-btn {
     text-align: center;
 }
 
-#sign-up-btn h3 {
+.sign-up-btn h3 {
     display: inline;
     background-color: #FFB36E;
     text-align: center;
@@ -171,19 +169,19 @@ h4 {
     overflow: hidden;
 }
 
-#event-wrapper {
+.event-wrapper {
     background-color: rgba(54, 54, 54, 0.6);
     color: #EFEFEF;
     border: 3px solid #EFEFEF;
 }
 
-#event-btn {
+.event-btn {
     margin-top: 10px;
     margin-bottom: 18px;
     text-align: center;
 }
 
-#event-btn a {
+.event-btn a {
     width: 25%;
     border-radius: 5px;
     padding: 8px 15px;
@@ -191,7 +189,7 @@ h4 {
     color: #363636;
 }
 
-#venue, #date {
+.venue, .date {
     text-align: center;
 }
 
@@ -334,7 +332,7 @@ footer ul {
         line-height: 200%;
     }
 
-    #sign-up-btn {
+    .sign-up-btn {
         margin: 36px;
     }
 
@@ -364,7 +362,7 @@ footer ul {
         font-size: 150%;
     }
 
-    #event-wrapper {
+    .event-wrapper {
         width: 25%;
     }
 
