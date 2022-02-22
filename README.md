@@ -5,11 +5,11 @@ This website was created to give singletons an outlet to connect with people in 
 
 ## User Story
 
-Joe is an ordinary guy. He has been split with his ex for 2 years now. And in the last year alone, he has been on 43 first dates. He has had 4 second dates and only 1 third date. But he has never made a lasting connection. Joe puts this down to the fact that he is only able to connect with people on a cosmetic basis. He sees them on the apps, swipes because he's attracted to them. And when they swipe back, a conversaation ensues via text message.
+Joe is an ordinary guy. He has been split with his ex for 2 years now. And in the last year alone, he has been on 23 first dates. He has had 4 second dates and only 1 third date. But he has never made a lasting connection. Joe puts this down to the fact that he is only able to connect with people on a cosmetic basis. He sees them on the apps, swipes because he's attracted to them. And when they swipe back, a conversaation ensues via text message.
 
 Joe likes this approach, overall, but he finds that when he meets the people in person, they tend to not look like their pictures, or they're not who they made themselves out to be during the text exchange. 
 
-This why we created DateIRL. The text message abrrier is broken down and we bring people together in a communal environment. People can be free to be themselves so that if their is a spark among singles, they can connect more naturally. Rather than wade through the potentials on an app.
+This why we created DateIRL. The text message barrier is broken down and we bring people together in a communal environment. People can be free to be themselves so that if there is a spark among singles, they can connect more naturally. Rather than wade through the potentials on an app.
 
 ## What We Built
 
@@ -73,7 +73,7 @@ Once all html code was finalised and CSS code was added, testing took the form o
 
 Below is a screenshot from [AmIResponsive.com](http://ami.responsivedesign.is/) showing the various elements of the page at different screen widths.
 
-![DATE IRL Responsiveness Test](/assets/images/responsive-project.png)
+![DATE IRL Responsiveness Test](/assets/images/responsiveness.png)
 
 The next test was to check the Google Lighthouse report in Dev Tools
 
@@ -89,7 +89,7 @@ As both elements used the same image, we optimised the image to reduce the overa
 
 ![Lighthouse Test after Image Optimisation](/assets/images/lighthouse-test-after-image-optimisation.png)
 
-Lighthouse repoirt aslo confirmed a high degree of accessibility achieving an overall score of 98%. Contrast is high and the only image elements are the logo areas in both pages. Any visible images are decorative backgroiund images with no `alt-text` required.
+Lighthouse report aslo confirmed a high degree of accessibility achieving an overall score of 98%. Contrast is high and the only image elements are the logo areas in both pages. Any visible images are decorative backgroiund images with no `alt-text` required.
 
 ### **Validation**
 
@@ -127,3 +127,6 @@ Logo image designed by [NgenNo9](https://github.com/NgenNo9)
 
 The site was deployed to a cloud-based platform. GitHub Pages provided the hosting of the deployment and can be viewed at [my project repo](https://ngenno9.github.io/project-1-DateIRL/).
 
+### **Maintenance**
+
+All files are stored locally within the repo so there is no need for maintenance as such. Justy to keep on top of the host to ensure it is fully operation and that teh website is being surfaced accordingly.
