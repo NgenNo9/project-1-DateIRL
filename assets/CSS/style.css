@@ -221,18 +221,22 @@ footer ul {
 /* Form page */
 
 #form-wrapper {
-    width: 90%;
-    margin: 0 auto;
     letter-spacing: 1px;
     background-color: rgba(54, 54, 54, 0.6);
     color: #EFEFEF;
+ }
+
+ form, .form-intro {
+     width: 90%;
+     margin: auto;
+     padding: 20px 0;
  }
 
  input[type="text"], input[type="email"], input[type="tel"] {
      width: 100%;
      line-height: 25px;
      background-color: transparent;
-     border: 1px solid #000;
+     border: 1px solid #EFEFEF;
      border-radius: 5px;
      margin-top: 5px;
      margin-bottom: 10px;
@@ -258,7 +262,7 @@ footer ul {
      width: 50%;
      line-height: 25px;
      background-color: transparent;
-     border: 1px solid #000;
+     border: 1px solid #EFEFEF;
      border-radius: 5px;
      margin-top: 5px;
      margin-bottom: 10px;
@@ -317,19 +321,31 @@ footer ul {
 @media screen and (min-width: 1170px) {
 
     body {
-        background-color: #EFEFEF;
-        letter-spacing: 1px;
-        color: #363636;
-        line-height: 400%;
         font-size: 125%;
+    }
+
+    #cover-text {
+        font-size: 120%;
+        width: 50%;
+        left: 0;
+        bottom: 50px;
+        line-height: 200%;
+    }
+
+    #sign-up-btn {
+        margin: 36px;
     }
 
     #hero-section {
         width: 100%;
     }
 
-    form, #hero-section h2, #hero-section p {
+    form, #hero-section h2 {
         line-height: 150%;
+        width: 50%;
+    }
+
+    .form-intro {
         width: 50%;
         margin: 0 auto;
     }
@@ -361,13 +377,5 @@ footer ul {
         to{
             transform: scale(2.0);
         }
-    }
-
-    #cover-text {
-        font-size: 120%;
-        width: 50%;
-        left: 0;
-        bottom: 50px;
-        line-height: 200%;
     }
 }
