@@ -97,6 +97,18 @@ On running the HTML files through the [Official W3C HTML Validation Tool](https:
 
 On re-running the HTML validator, no issues were found. The CSS validation was run after the HTML was updated and no issues were found in the [CSS Validation Tool](https://jigsaw.w3.org/css-validator/).
 
+**index.html Validation**
+
+![index.html Validation](/assets/images/index.html-validation-confirmation.png)
+
+**sign-up.html Validation**
+
+![sign-up.html Validation](/assets/images/sign-up.html-validation-confirmation.png)
+
+**CSS Validation**
+
+![CSS Validation](/assets/images/CSS-validation-confirmation.png)
+
 ### **Image Attribution**
 
 **cool-backgroun.png** 
