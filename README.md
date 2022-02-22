@@ -1,4 +1,5 @@
-# DATEInRealLife
+
+![DATE IRL Logo](/assets/images/DateIRL-V2.png)
 
 This website was created to give singletons an outlet to connect with people in the real world. Without relying on dating apps.
 
@@ -44,3 +45,24 @@ In the future, it is envisioned that the signup page will lead to a checkout, wh
 
 It should be noted that the above is a base. The colour scheme and font are not cemented. These will be clarified later in the project.
 
+## 22/2/2022
+
+### Project re-direct
+
+Having met with mentor Ronan on Saturday 19/2, we determined that the website was currently looking very 90s Geocities style. There has been a change in the direction of the website. Now the project is taking a 2 page approach with 3 sections in the homepage
+
+Below are some screenshots of the renderfed site in a locally developed version of VS Code.
+
+**Mobile**
+
+![DATE IRL Mobile](/assets/images/mobile.png)
+
+**Tablet at 580px min-width**
+
+![DATE IRL Mobile](/assets/images/min-width-580px.png)
+
+**Desktop at 1170px min-width**
+
+![DATE IRL Desktop at 1170px min-width](/assets/images/min-width-1170px.png)
+
+The decision was taken to develop the site locally instead of in GitPod to prevent too many commits while the new site was being developed. Code will be copied over from local environment to GitPod. Will then run tests to confirm file paths are relevant and media queries remain as developed locally.

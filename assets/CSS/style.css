@@ -8,29 +8,24 @@
 }
 
 body {
-    margin: 0 20px;
-    background-color: #FFB1B1;
+    background-color: #EFEFEF;
     letter-spacing: 1px;
+    color: #252525;
+    line-height: 25px;
 }
 
 /* Header */
 
-#logo {
-    width:75%;
+#logo, #hero-content {
     margin-top: 16px;
 }
 
-#tagline {
-    text-align: right;
-}
-
-.subheading {
-    font-size: 50%;
-    font-weight: 400;
+#logo img {
+    width:75%;
 }
 
 #nav, #how-it-works {
-    margin: 16px auto;
+    margin: 16px 20px;
 }
 
 .nav-menu {
@@ -50,8 +45,29 @@ body {
 
 /* Hero Section */
 
+#hero-image {
+    height: 300px;
+    width: 100%;
+
+    /* Animating the hero image*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Creating the zoom level */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
 #hero-section, #about-us, #interests, #hobbies, #signup-section, #demographics, #age-prefs  {
     margin-top: 24px;
+    overflow: hidden;
 }
 
 #hero-image img, #about-content img {
