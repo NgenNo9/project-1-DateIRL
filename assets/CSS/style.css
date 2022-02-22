@@ -84,7 +84,7 @@ a {
 
 #hero-section {
     width: 100%;
-    background: url(/assets/images/glasses-clinking.jpeg);
+    background: url(../images/glasses-clinking.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
