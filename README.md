@@ -97,6 +97,12 @@ Lighthouse report aslo confirmed a high degree of accessibility achieving an ove
 
 ---
 
+### **User Testing**
+
+
+
+---
+
 ## **Validation**
 
 On running the `HTML` files through the [Official W3C HTML Validation Tool](https://validator.w3.org/), it was noticed that the section `ID`s were used in multiple instances. It was thought by this Junior Dev that `ID`s had some utility use cases, however this seems to not be case. These IDs were changed to classes where necessary, with specific references to the **`Events`** section of the `index.html`. This was also found in 1 instance in the `sign-up.html` file. The `ID` was modified here instead of changing to a class. The issue was in relation to a form label and input. So an `ID` was necessary in this case.
@@ -144,3 +150,5 @@ The site was deployed to a cloud-based platform. GitHub Pages provided the hosti
 All files are stored locally within the repo so there is no need for maintenance as such. Just to keep on top of the host to ensure it is fully operation and that teh website is being surfaced accordingly.
 
 ---
+
+### **Future Development**

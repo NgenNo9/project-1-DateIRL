@@ -72,16 +72,6 @@ a {
     }
 }
 
-/* Form Hero Section */
-
-#hero-section {
-    width: 100%;
-    background: url(../images/glasses-clinking.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 #cover-text {
     margin: 0 20px;
     padding: 15px 0;
@@ -164,9 +154,15 @@ h4 {
 }
 
 .event-wrapper {
+    height: 200px;
     background-color: rgba(54, 54, 54, 0.6);
     color: #EFEFEF;
     border: 3px solid #EFEFEF;
+    align-items: center;
+}
+
+.event-inner {
+    margin: 40px 0;
 }
 
 .event-btn {
@@ -191,7 +187,7 @@ h4 {
 
 #find-out-more {
     width: 75%;
-    margin: 15px auto;
+    margin: 40px auto;
 }
 
 #find-out-more p {
@@ -199,7 +195,17 @@ h4 {
     text-align: center;
 }
 
+.find-out-more-inner a {
+    margin-bottom: 40px;
+}
+
 /* Footer */
+
+footer {
+    background: #363636;
+    color: #EFEFEF;
+    height: 150px;
+}
 
 footer ul {
     width: 50%;
@@ -208,11 +214,22 @@ footer ul {
     list-style: none;
     margin: 25px auto;
     font-size: 200%;
+    padding: 50px 0;
 }
 
 /* Form page */
 
+#hero-section {
+    width: 100%;
+    height: 80vh;
+    background: url(../images/glasses-clinking.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #form-wrapper {
+    height: 80vh;
     letter-spacing: 1px;
     background-color: rgba(54, 54, 54, 0.7);
     color: #EFEFEF;
@@ -273,15 +290,6 @@ input[type="submit"] {
     border-radius: 5px;
     background-color: #FFB36E;
     color: #363636;
-}
-
-footer ul {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 25px auto;
-    font-size: 200%;
 }
 
 /* Media Queries */
