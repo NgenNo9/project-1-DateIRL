@@ -99,7 +99,13 @@ Lighthouse report aslo confirmed a high degree of accessibility achieving an ove
 
 ### **User Testing**
 
+To confirm the intended outcomes the site was deployed to GitHub Pages and all links were tested. The internal links are opening in the same window and anchor links are directing to the relevant sections of the homepage. The social media links in the footer are intended to open in a new tab/window and click tests confirm that this happens as intended. 
 
+On clicking the **About** nav menu item, user is brought to an anchored element which details the benefits of signing up to the service. Tghis acts in tandem as a benefit statement also.
+
+On clicking the **Events** nav menu item, user is brought to an area of the homepage, again via anchor element, which details upcoming events. It's intended that, on future development, these events sections will update automatically when new events are added or have passed a cut-off point (i.e add events when added in the back end, or remove when a cut-ff date has passed)
+
+**CTA** (Call To Action) buttons in the homepage all lead to the `sign-up.html` file. The logo image element at the top of the 2 html files lead the user home as well as the **Home** nav menu item.
 
 ---
 
@@ -152,3 +158,11 @@ All files are stored locally within the repo so there is no need for maintenance
 ---
 
 ### **Future Development**
+
+In the future, it is envisioned that the website's sign-up page will eventually lead to a checkout where user's can fully book their dating experience through the site. At present, once the form is filled in, the user will be manually sent a Google form to complete registration where we will also send a Paypal/Revolut link to pay on completion.
+
+Additionally, we wish to update events automatically through a backend application which will add new events as they are added and remove events as their registration dswtes pass. 
+
+We may also implement an online store where users can purchase dating experiences for their loved ones that are single, In these cases, the user's will purchase a gift card that they can gift to a friend/loved one and have the loved one book at their own leiure.
+
+There are a bunch of additional features that we can add. Thesee will be researched and implemented as they present themselves.
