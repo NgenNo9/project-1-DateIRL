@@ -151,6 +151,24 @@ The site was deployed to a cloud-based platform. GitHub Pages provided the hosti
 
 ---
 
+### Active Deployments
+
+The following screenshots are indicative of active deployments on GitHub Pages
+
+#### **Mobile (iPhone 12)**
+
+![iphone-12-active-deployment-of-DATE-IRL-website](/assets/images/active-deployment-iphone12.png)
+
+
+#### **Tablet (iPad Mini)**
+
+![iPad-mini-active-deployment-of-DATE-IRL-website](/assets/images/active-deployment-ipadmini.png)
+
+
+#### **Desktop (Chrome)**
+
+![desktop-active-deployment-of-DATE-IRL-website-in-chrome](/assets/images/active-deployment-signup-page-desktop.png)
+
 ### **Maintenance**
 
 All files are stored locally within the repo so there is no need for maintenance as such. Just to keep on top of the host to ensure it is fully operation and that teh website is being surfaced accordingly.
@@ -161,8 +179,8 @@ All files are stored locally within the repo so there is no need for maintenance
 
 In the future, it is envisioned that the website's sign-up page will eventually lead to a checkout where user's can fully book their dating experience through the site. At present, once the form is filled in, the user will be manually sent a Google form to complete registration where we will also send a Paypal/Revolut link to pay on completion.
 
-Additionally, we wish to update events automatically through a backend application which will add new events as they are added and remove events as their registration dswtes pass. 
+Additionally, we wish to update events automatically through a backend application which will add new events as they are added and remove events as their registration dates pass. 
 
 We may also implement an online store where users can purchase dating experiences for their loved ones that are single, In these cases, the user's will purchase a gift card that they can gift to a friend/loved one and have the loved one book at their own leiure.
 
-There are a bunch of additional features that we can add. Thesee will be researched and implemented as they present themselves.
+There are a bunch of additional features that we can add. These will be researched and implemented as they present themselves.
