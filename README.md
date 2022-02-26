@@ -181,11 +181,11 @@ To Deploy the website, I followed the following steps:
 
 1. I logged into [GitHub](https://GitHub.com/).
 2. From the list of Repositories, I selected the [DateIRL repository](https://github.com/NgenNo9/project-1-DateIRL).
-3. From the Repository's sub-headings, I selected "Settings".
-4. In the left navigation menu, I selected the "Pages" area.
-5. From the dropdown list under the "Source" heading, select "main".
-6. A second drop-down menu appeared. This was left at the default value, "/root".
-7. I clicked "Save". 
+3. From the Repository's sub-headings, I selected `Settings`.
+4. In the left navigation menu, I selected the `Pages` area.
+5. From the dropdown list under the `Source` heading, select `main`.
+6. A second drop-down menu appeared. This was left at the default value, `/root`.
+7. I clicked `Save`. 
 8. On Page refresh, the link to the deployed site was available in a green sub-section with a check-mark icon next to it.
 
 ---
@@ -210,7 +210,7 @@ The following screenshots are indicative of active deployments on GitHub Pages
 
 ### **Maintenance**
 
-All files are stored locally within the repo so there is no need for maintenance as such. Just to keep on top of the host to ensure it is fully operation and that teh website is being surfaced accordingly.
+All files are stored locally within the repo so there is no need for maintenance as such. Just to keep on top of the host to ensure it is fully operation and that the website is being surfaced accordingly.
 
 ---
 
