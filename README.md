@@ -3,7 +3,31 @@
 
 ---
 
+# Table Of Contents
+
+1. [Overview](#overview)
+2. [User Story](#user-story)
+3. [What We Built](#what-we-built)
+4. [Prelminary Wireframes](#preliminary-wireframes)
+5. [Project Re-Direct](#project-re-direct)
+6. [Testing](#testing)
+7. [User Testing](#user-testing)
+8. [Validation](#validation)
+9. [Image Attribution](#image-attribution)
+10. [Deployment](#deployment)
+
+    a. [Active Deployments](#active-deployments)
+
+11. [Maintenance](#maintenance)
+12. [Future Development](#future-development)
+
+---
+
+## **Overview**
+
 This website was created to give singletons an outlet to connect with people in the real world. Without relying on dating apps.
+
+---
 
 ## User Story
 
@@ -12,6 +36,8 @@ Joe is an ordinary guy. He has been split with his ex for 2 years now. And in th
 Joe likes this approach, overall, but he finds that when he meets the people in person, they tend to not look like their pictures, or they're not who they made themselves out to be during the text exchange. 
 
 This why we created DateIRL. The text message barrier is broken down and we bring people together in a communal environment. People can be free to be themselves so that if there is a spark among singles, they can connect more naturally. Rather than wade through the potentials on an app.
+
+---
 
 ## What We Built
 
@@ -30,7 +56,9 @@ In the future, it is envisioned that the signup page will lead to a checkout, wh
 
 ---
 
-### **Mobile**
+## Preliminary Wireframes
+
+### **Mobile**
 
 
 ![Date IRL - Mobile - Home](https://user-images.githubusercontent.com/99017752/154042180-7859a7b2-a686-4c2c-b366-4b4364e4b39b.png)
@@ -97,7 +125,7 @@ Lighthouse report aslo confirmed a high degree of accessibility achieving an ove
 
 ---
 
-### **User Testing**
+### **User Testing**
 
 To confirm the intended outcomes the site was deployed to GitHub Pages and all links were tested. The internal links are opening in the same window and anchor links are directing to the relevant sections of the homepage. The social media links in the footer are intended to open in a new tab/window and click tests confirm that this happens as intended. 
 
@@ -109,7 +137,7 @@ On clicking the **Events** nav menu item, user is brought to an area of the home
 
 ---
 
-## **Validation**
+## **Validation**
 
 On running the `HTML` files through the [Official W3C HTML Validation Tool](https://validator.w3.org/), it was noticed that the section `ID`s were used in multiple instances. It was thought by this Junior Dev that `ID`s had some utility use cases, however this seems to not be case. These IDs were changed to classes where necessary, with specific references to the **`Events`** section of the `index.html`. This was also found in 1 instance in the `sign-up.html` file. The `ID` was modified here instead of changing to a class. The issue was in relation to a form label and input. So an `ID` was necessary in this case.
 
@@ -149,23 +177,34 @@ Logo image designed by [NgenNo9](https://github.com/NgenNo9)
 
 The site was deployed to a cloud-based platform. GitHub Pages provided the hosting of the deployment and can be viewed at [my project repo](https://ngenno9.github.io/project-1-DateIRL/).
 
+To Deploy the website, I followed the following steps:
+
+1. I logged into [GitHub](https://GitHub.com/).
+2. From the list of Repositories, I selected the [DateIRL repository](https://github.com/NgenNo9/project-1-DateIRL).
+3. From the Repository's sub-headings, I selected "Settings".
+4. In the left navigation menu, I selected the "Pages" area.
+5. From the dropdown list under the "Source" heading, select "main".
+6. A second drop-down menu appeared. This was left at the default value, "/root".
+7. I clicked "Save". 
+8. On Page refresh, the link to the deployed site was available in a green sub-section with a check-mark icon next to it.
+
 ---
 
 ### Active Deployments
 
 The following screenshots are indicative of active deployments on GitHub Pages
 
-#### **Mobile (iPhone 12)**
+#### **Mobile (iPhone 12)**
 
 ![iphone-12-active-deployment-of-DATE-IRL-website](/assets/images/active-deployment-iphone12.png)
 
 
-#### **Tablet (iPad Mini)**
+#### **Tablet (iPad Mini)**
 
 ![iPad-mini-active-deployment-of-DATE-IRL-website](/assets/images/active-deployment-ipadmini.png)
 
 
-#### **Desktop (Chrome)**
+#### **Desktop (Chrome)**
 
 ![desktop-active-deployment-of-DATE-IRL-website-in-chrome](/assets/images/active-deployment-signup-page-desktop.png)
 
